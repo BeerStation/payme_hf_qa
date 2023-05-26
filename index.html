@@ -293,7 +293,7 @@
       const allFieldsReady = [];
 
       PayMe.create(window.apiKey, {
-        testMode: false,
+        testMode: true,
       }).then(instance => {
         const fields = instance.hostedFields();
 
